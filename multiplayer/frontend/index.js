@@ -48,7 +48,7 @@ let placingTower = 0
 let inUpgradesScreen = false
 let upgradeButtons = []
 
-const socket = io('https://tower-defense-multiplayer.onrender.com/');
+const socket = io('https://tower-defense-game-server.vercel.app/');
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
